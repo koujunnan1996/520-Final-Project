@@ -7,7 +7,7 @@ Goal:
 ---
 Develop a engaging and creative game through the "Enviro" enviroment which the theme is planetary gravitational field.
 
-Descrption:
+Description:
 ---
 This game simulates the gravitational field of a planet in the universe. When a planet has a large mass, it will have a large gravitational field. It will devour a planet with a small mass near it. There is a cosmic turret in the universe. It will automaticallly aim at the massive planet and issue a strike command. When the planet reaches a certain level and is subject to a series of blows, the planet will split.
 
