@@ -1,0 +1,25 @@
+{
+    "name": "Wall",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -790, "y": 390 },
+        { "x": 790, "y": 390 },
+        { "x": 790, "y": -390 },
+        { "x": -790, "y": -390 },
+        { "x": -790, "y": 380},
+        { "x": -780, "y": 380},
+        { "x": -780, "y": -380},
+        { "x": 780, "y": -380},
+        { "x": 780, "y": 380},
+        { "x": -780, "y": 380}
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/wall.so"
+}

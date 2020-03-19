@@ -1,0 +1,33 @@
+{
+    "name": "Turret",
+    "type": "noninteractive",
+    "description": "A Wandering Turret",
+    "shape": [
+        { "x": -10, "y": 10 },
+        { "x": 10, "y": 10 },
+        { "x": 10, "y": 2 },
+        { "x": 12, "y": 2 },
+        { "x": 12, "y": 6 },
+        { "x": 16, "y": 6 },
+        { "x": 16, "y": 4 },
+        { "x": 14, "y": 4 },
+        { "x": 14, "y": -4},
+        { "x": 16, "y": -4 },
+        { "x": 16, "y": -6 },
+        { "x": 12, "y": -6 },
+        { "x": 12, "y": -2 },
+        { "x": 10, "y": -2 },
+        { "x": 10, "y": -10 },
+        { "x": -10, "y": -10 },
+        { "x": -9, "y": 0 }
+    ],
+    "friction": {
+        "collision": 0.5,
+        "linear": 10,
+        "rotational": 50
+    },
+    "sensors": [
+    ],
+    "mass": 0.25,
+    "controller": "lib/turret.so"
+}

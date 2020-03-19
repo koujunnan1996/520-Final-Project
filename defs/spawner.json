@@ -1,0 +1,6 @@
+{
+    "name": "Spawner",
+    "type": "invisible",
+    "description": "Spawns the planets, but isn't rendered",  
+    "controller": "lib/spawner.so"
+}

@@ -1,0 +1,59 @@
+{
+
+    "name": "My Enviro Project",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+    "agents": [
+        {
+            "definition": "defs/turret.json",
+            "style": { "fill": "gray", "stroke": "none" },
+            "position": {
+                "x": -900, 
+                "y": 0, 
+                "theta": 0
+            }
+        }
+    ],
+
+    "references": [
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "position": {
+                "x": 0, 
+                "y": 0, 
+                "theta": 0
+            }
+        },   
+        {
+            "definition": "defs/planet.json",
+            "style": { "fill": "red", "stroke": "black" },
+            "position": { 
+                "x": 100,
+                "y": 100, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/bullet.json",
+            "style": { "fill": "green", "stroke": "#888", "strokeWidth": "5px", "strokeOpacity": "0.25" },
+            "position": {
+                "x": -400,
+                "y": -200,
+                "theta": 3.14 
+            }
+        }
+    ],
+
+    "invisibles": [
+        {
+            "definition": "defs/spawner.json",
+            "rendered": false
+        }
+    ],
+
+    "statics": []
+}
